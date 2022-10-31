@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>ClientWSYousse41</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.sun.xml.ws/jaxws-ri -->
+        <dependency>
+            <groupId>com.sun.xml.ws</groupId>
+            <artifactId>jaxws-ri</artifactId>
+            <version>4.0.0</version>
+            <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>com.github.valfirst.browserup-proxy</groupId>
+            <artifactId>browserup-proxy-rest</artifactId>
+            <version>2.2.4</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.github.hlder.proxy</groupId>
+            <artifactId>proxy</artifactId>
+            <version>1.0.2</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.github.valfirst.browserup-proxy</groupId>
+            <artifactId>browserup-proxy</artifactId>
+            <version>2.2.4</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+
+
+
+</project>
